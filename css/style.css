@@ -113,7 +113,7 @@ a {
 .q1 {
   display: flex;
   justify-content: start;
-  margin-left: 5%;
+  margin: 5%;
   color: #212121;
 }
 .q2 {
@@ -173,6 +173,10 @@ hr {
 .wm {
   text-decoration: none;
   color: #ffffff;
+}
+.prod2 {
+  display: flex;
+  justify-content: center;
 }
 .box2 {
   width: 300px;
