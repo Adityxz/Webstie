@@ -16,7 +16,7 @@
     <script type="text/javascript" src="js/lightslider.js"></script>
   </head>
   <body>
-    <div class="nav">
+    <header>
       <a href="#">WEBSTIE</a>
       <ul>
         <li><a href="#" class="bi bi-instagram"></a></li>
@@ -24,7 +24,7 @@
         <li><a href="#" class="bi bi-tiktok"></a></li>
         <li><a href="#" class="bi bi-youtube"></a></li>
       </ul>
-    </div>
+    </header>
     <!--navbar up here-->
     <div class="banner">
       <img src="images\Bg.jpg" alt="" />
@@ -192,6 +192,12 @@
 
     <!--script-link----------->
     <script type="text/javascript" src="js/script.js"></script>
+    <script>
+      const header = document.querySelector("header");
+      window.addEventListener("scroll", function () {
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
   </body>
   <footer>
     <div class="qn"><h2>So, have interested yet aren't you?</h2></div>

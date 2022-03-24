@@ -145,14 +145,12 @@ footer {
   display: flex;
   justify-content: space-around;
   font-size: 21px;
-  padding: 30px;
 }
 .icon a {
   transition: 0.5s;
 }
-.watermark .bi:hover{
+.watermark .bi:hover {
   transform: scale(1.2);
-  
 }
 .icon a:hover {
   transform: scale(1.2);
@@ -168,7 +166,6 @@ footer {
   }
   form.search input {
     display: none;
-  }
   }
 }
 .icon {
@@ -223,22 +220,24 @@ footer {
   transform: scale(1.2);
   transition: 0.6s;
 }
-.watermark .bi{
+.watermark .bi {
   color: #f15fa3;
   transition: 0.5s;
 }
 /*navbar right here*/
-.nav {
+header {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   overflow-x: hidden;
   padding: 10px;
-  background-color: #212121;
   width: 100%;
   height: 50px;
+  z-index: 2;
+  transition: 0.6s;
 }
-.nav a {
+header a {
   text-decoration: none;
   color: white;
   font-weight: 700;
@@ -246,18 +245,23 @@ footer {
   padding-left: 15px;
   letter-spacing: 2px;
 }
-.nav ul {
+header ul {
   display: flex;
   list-style: none;
   justify-content: space-around;
   box-sizing: border-box;
   margin-right: 3%;
 }
-.nav a {
+header a {
   font-size: 15px;
 }
 .banner img {
   width: 100%;
   object-fit: cover;
   height: 450px;
+}
+.sticky {
+  background-color: rgba(21, 21, 21, 0.5);
+  backdrop-filter: blur(20px);
+  transition: 0.6s;
 }
