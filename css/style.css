@@ -268,7 +268,6 @@ header a {
   width: 100%;
   object-fit: cover;
   height: 450px;
-  opacity: 0.7;
 }
 .sticky {
   color: whi;
@@ -276,9 +275,23 @@ header a {
   backdrop-filter: blur(20px);
   transition: 0.6s;
 }
+/*dark theme*/
 body.dark {
   background-color: #212121;
   transition: 0.5s;
+}
+body.dark h2 {
+  color: white;
+}
+body.dark .banner img {
+  opacity: 0.5;
+  transition: 0.8s;
+}
+body.dark .detail-box a {
+  color: white;
+}
+body.dark .detail-box span {
+  color: white;
 }
 /*asdfghj*/
 .label {
