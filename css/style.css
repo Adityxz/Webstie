@@ -131,6 +131,9 @@ footer {
   width: 200px;
   margin-bottom: 15px;
 }
+.p-foot {
+  margin: 5%;
+}
 .qn {
   padding-top: 3%;
   padding-left: 5%;
@@ -166,6 +169,9 @@ footer {
   }
   form.search input {
     display: none;
+  }
+  .p-foot {
+    margin: 0%;
   }
 }
 .icon {

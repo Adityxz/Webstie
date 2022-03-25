@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, intial-scale=1.0" />
     <title>Your Website Bestie</title>
     <link rel="shortcut icon" href="images/logo.png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/lightslider.css" />
     <link
@@ -30,7 +31,7 @@
       <img src="images\Bg.jpg" alt="" />
     </div>
     <div class="q1">
-      <h2>Your product will look like this</h2>
+      <h2>And Your product will look like this</h2>
     </div>
     <section class="slider">
       <ul id="autoWidth" class="cs-hidden">
@@ -183,7 +184,12 @@
     <div class="q2">
       <h2>Or Even Like This</h2>
     </div>
-    <div class="prod2">
+    <div
+      class="prod2"
+      data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
       <div class="box2">
         <img src="images\1.jpg" alt="display2" class="slide-img2" />
       </div>
@@ -197,6 +203,10 @@
       window.addEventListener("scroll", function () {
         header.classList.toggle("sticky", window.scrollY > 0);
       });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
   <footer>
