@@ -177,6 +177,12 @@ footer {
   .p-foot {
     margin: 0%;
   }
+  header ul {
+    padding-right: 15px;
+  }
+  .container-price {
+    flex-direction: column;
+  }
 }
 .icon {
   text-decoration: none;
@@ -304,6 +310,12 @@ body.dark header a {
 .bi-translate {
   color: #212121;
 }
+body.dark .qprice {
+  color: #ffffff;
+}
+body.dark h1 {
+  color: #ffffff;
+}
 /*asdfghj*/
 .label {
   background-color: rgba(21, 21, 21, 0.5);
@@ -347,4 +359,74 @@ body.dark header a {
 .bi-sun {
   color: #ffcf27;
   font-size: 10px;
+}
+/* container price */
+.container-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2% 8%;
+}
+.plan1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  object-fit: cover;
+  width: 350px;
+  padding: 0%;
+  align-items: center;
+  margin-bottom: 5%;
+  background-color: white;
+  box-shadow: 3px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.pricec {
+  font-weight: 800;
+  font-size: 4rem;
+  padding: 15px;
+}
+.pricec p {
+  font-size: medium;
+  font-weight: 200;
+}
+.plan {
+  display: block;
+  align-items: center;
+  padding: 20px;
+  color: #54edc1;
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+}
+.cekot {
+  background-color: #54edc1;
+  width: 100%;
+  text-align: center;
+  width: 80%;
+  padding: 15 10;
+  border-radius: 50px;
+}
+.cekot a {
+  text-decoration: none;
+  color: #212121;
+  padding: 15px;
+  font-weight: 700;
+}
+.more {
+  display: block;
+  text-align: center;
+  background-color: rgba(238, 238, 238, 0.824);
+  padding: 10px 15px;
+}
+.more a {
+  color: #212121;
+  text-transform: uppercase;
+}
+.qprice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+.qprice p {
+  margin-top: -12px;
 }
